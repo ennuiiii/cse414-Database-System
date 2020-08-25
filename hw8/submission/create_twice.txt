@@ -1,0 +1,9 @@
+# create user twice
+create user1 user1 100000
+create user1 asdflskdn 2000
+quit
+*
+Created user user1
+Failed to create user
+Goodbye
+*

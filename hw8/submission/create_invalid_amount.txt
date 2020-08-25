@@ -1,0 +1,7 @@
+#create user with invalid amount
+create user1 saldfknskln -100
+quit
+*
+Failed to create user
+Goodbye
+*

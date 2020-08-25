@@ -1,0 +1,5 @@
+I would say it's convenient and inconvenient. It's convenient that I don't need
+to have some storage that store this "huge" amount of data. But in some sort of
+sense, that increase the risk of information disclosure. I claim it's inconvenient
+is that I ran into problem when I was doing question 5. I was using the query
+editor, which kept giving me timeout exception. 

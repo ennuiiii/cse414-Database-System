@@ -1,0 +1,7 @@
+# search invalid cities
+search "haha" "hoho" 1 1 1
+quit
+*
+No flights match your selection
+Goodbye
+*

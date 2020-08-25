@@ -1,0 +1,7 @@
+SELECT y.`-car_code` as country_code, y.name as country_name, y.`-area` as area
+FROM hw5.world x, x.mondial.country y
+LET sea = (SELECT *
+           FROM x.mondial.sea s, split(s.`-country`, ' ') cid
+           WHERE cid = y.`-car_code`)
+WHERE array_count(sea) = 0
+ORDER BY float(y.`-area`) DESC;

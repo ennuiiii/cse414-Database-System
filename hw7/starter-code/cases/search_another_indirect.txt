@@ -1,0 +1,15 @@
+# user 1
+search "Niagara Falls NY" "Chicago IL" 0 24 2
+quit
+*
+#
+# expected printout for user1
+#
+Itinerary 0: 2 flight(s), 246 minutes
+ID: 917763 Day: 24 Carrier: NK Number: 289 Origin: Niagara Falls NY Dest: Myrtle Beach SC Duration: 121 Capacity: 18 Price: 723
+ID: 368695 Day: 24 Carrier: OH Number: 5631 Origin: Myrtle Beach SC Dest: Chicago IL Duration: 125 Capacity: 12 Price: 248
+Itinerary 1: 2 flight(s), 248 minutes
+ID: 917763 Day: 24 Carrier: NK Number: 289 Origin: Niagara Falls NY Dest: Myrtle Beach SC Duration: 121 Capacity: 18 Price: 723
+ID: 923286 Day: 24 Carrier: NK Number: 842 Origin: Myrtle Beach SC Dest: Chicago IL Duration: 127 Capacity: 14 Price: 340
+Goodbye
+*

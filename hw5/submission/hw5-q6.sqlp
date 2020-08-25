@@ -1,0 +1,6 @@
+SELECT y.`-car_code` as country_code, y.name as country_name, mountains
+FROM hw5.world x, x.mondial.country y
+LET mountains = (SELECT m.name, m.height
+                 FROM x.mondial.mountain m, split(m.`-country`, ' ') cid
+                 WHERE y.`-car_code` = cid)
+ORDER BY array_count(mountains) DESC;
