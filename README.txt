@@ -1,6 +1,2 @@
-The assignment instructions and starter code (if needed) are posted here.
-
-Please place your solutions in the submission directory then run:
-
-$ ./turnInHw.sh hw1
-
+CSE414: Introduction to Database Systems (for non-CSE Majors)
+Catalog Description: Introduces database management systems and writing applications that use such systems; data models, query languages, transactions, database tuning, data warehousing, parallelism.
